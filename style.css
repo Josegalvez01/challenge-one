@@ -1,0 +1,150 @@
+header {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f2f2f2;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 48px;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.cajaIzquierda {
+
+  width: 600px;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 10px 80px;
+}
+
+h3 {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  color: #0a3871;
+
+}
+
+.cajaDerecha {
+  width: 400px;
+  height: 690px;
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin: 1% 10px 10px;
+}
+
+.cajaDerecha h1 {
+  margin: auto 5%;
+  font-size: 24px;
+
+}
+
+.cajaDerecha h2 {
+  margin: auto 15%;
+  font-size: 12px;
+}
+
+.imagenMu {
+  margin: 0% auto;
+}
+
+textarea {
+  width: 95%;
+  height: 90%;
+  border: none;
+  background-color: transparent;
+  padding: 3%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #0a3871;
+  outline: none;
+}
+
+.textareaDerecha {
+  position: relative;
+  display: none;
+  height: 580px;
+}
+
+button {
+  font-weight: 400;
+  font-size: 12px;
+  margin: 20px;
+  border: none;
+  background: #0a3871;
+  color: #fff;
+  width: 218px;
+  height: 44px;
+  border-radius: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin: 2% auto;
+  transition: background 0.5s, border-color 0.3s;
+}
+
+button:hover,
+button:focus {
+  background: #fff;
+  border: 2px solid #0a3871;
+  color: #0a3871;
+  font-size: 15px;
+ 
+  
+}
+
+
+.botonCopiar {
+  display: none;
+
+}
+
+@media screen and (max-width: 600px) {
+
+  div,
+  .contenedor {
+    width: 98%;
+  }
+
+  .cajaIzquierda {
+
+    margin: 5% 10px 160px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 18px;
+  }
+
+  button {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    margin-top: 3%;
+    width: 98%;
+    font-size: 16px;
+  }
+}
